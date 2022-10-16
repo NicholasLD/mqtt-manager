@@ -1,24 +1,25 @@
-# mqtt-manager
+# MQTT Manager v1.0.0
+简单的MQTT Web客户端
 
-## Project setup
+由于协议问题，部署网站如果是 https协议，则只能连接wss协议(加密的Websocket连接)的MQTT服务器
+，如果是http协议，则两者都可连接
+
+## 项目部署
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 开发模式运行
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 为生产环境打包
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### 代码规范检查
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
